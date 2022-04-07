@@ -1,6 +1,6 @@
 Air Passage Information and pricing Web Scraping Project from popular brazilian Websites
 
-Python 
+Language used: Python 
 
 Main Libraries:
 * Beautiful Soup
@@ -8,5 +8,5 @@ Main Libraries:
 
 Under Development...
 
-[x] 123 Milhas
+[x] 123 Milhas \t
 [ ] Google Flights
