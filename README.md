@@ -13,4 +13,4 @@
 
 
 - [x] 123 Milhas
-- [ ] Google Flights
+- [x] Google Flights
