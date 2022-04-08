@@ -10,7 +10,8 @@
 <b>Main Libraries:</b>
 * Beautiful Soup
 * Selenium
-*
+
+
 <b> Other Librarires:</b>
 * Datetime
 * Pandas
