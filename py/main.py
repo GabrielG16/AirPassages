@@ -16,8 +16,9 @@ def run():
 
     results_123 = pesquisas.realiza_pesquisa_123(cidade_origem, cidade_destino, data_partida, data_retorno)
     results_google = pesquisas.realiza_pesquisa_google(cidade_origem, cidade_destino, data_partida, data_retorno)
-    apanhado_geral = pd.concat([results_123, results_google], axis=1)
-    return apanhado_geral
+    combined_results = pd.concat([results_123, results_google], axis=1)
+    combined_results.to_csv('passagens.csv')
+    return combined_results
 
 
 if __name__ == '__main__':
